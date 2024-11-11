@@ -1,0 +1,11 @@
+com\yanhuo\im\factory\MessageFactory.class
+com\yanhuo\im\config\ServerEncoder.class
+com\yanhuo\im\factory\ChatCountMessage.class
+com\yanhuo\im\ImApplication.class
+com\yanhuo\im\config\WebSocketConfig.class
+com\yanhuo\im\service\impl\ChatServiceImpl.class
+com\yanhuo\im\service\ChatService.class
+com\yanhuo\im\controller\ChatController.class
+com\yanhuo\im\entity\CountMessage.class
+com\yanhuo\im\factory\ChatUserMessage.class
+com\yanhuo\im\websocket\WebSocketServer.class

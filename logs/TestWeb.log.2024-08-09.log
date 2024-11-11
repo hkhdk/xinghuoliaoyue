@@ -1,0 +1,1223 @@
+2024-08-09 19:02:24.656 [main] INFO  com.yanhuo.im.ImApplication - The following profiles are active: test
+2024-08-09 19:02:25.731 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-09 19:02:25.736 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-09 19:02:25.794 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2024-08-09 19:02:26.322 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=1be28549-0e0e-3c3e-95a0-3316a6538a59
+2024-08-09 19:02:27.437 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8802 (http)
+2024-08-09 19:02:27.460 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 19:02:27.461 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-08-09 19:02:27.467 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-08-09 19:02:27.468 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-08-09 19:02:27.471 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-09 19:02:27.525 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-08-09 19:02:27.791 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/im] - Initializing Spring embedded WebApplicationContext
+2024-08-09 19:02:27.792 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3110 ms
+2024-08-09 19:02:29.066 [main] INFO  com.yanhuo.auth.AuthApplication - The following profiles are active: test
+2024-08-09 19:02:30.213 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-09 19:02:30.220 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-09 19:02:30.273 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2024-08-09 19:02:30.719 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=f274fffe-51a7-3184-925c-49d39d1fd4a6
+2024-08-09 19:02:31.590 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8801 (http)
+2024-08-09 19:02:31.614 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 19:02:31.615 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-08-09 19:02:31.620 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-08-09 19:02:31.621 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-08-09 19:02:31.621 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-09 19:02:31.629 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-08-09 19:02:31.902 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2024-08-09 19:02:31.902 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2816 ms
+2024-08-09 19:02:32.276 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 19:02:32.276 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 19:02:32.285 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 19:02:32.285 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 19:02:34.249 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8802 (http) with context path '/im'
+2024-08-09 19:02:35.254 [main] INFO  com.yanhuo.im.ImApplication - Started ImApplication in 14.023 seconds (JVM running for 16.111)
+2024-08-09 19:02:35.862 [main] INFO  com.yanhuo.platform.PlatformApplication - The following profiles are active: test
+2024-08-09 19:02:36.526 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 19:02:36.533 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 19:02:36.544 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 19:02:36.545 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 19:02:37.257 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-09 19:02:37.263 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-09 19:02:37.345 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 0 Redis repository interfaces.
+2024-08-09 19:02:37.908 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=c83c4f09-b534-3cf3-8a9b-d019beed4e69
+2024-08-09 19:02:37.928 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.yanhuo.platform.client.ChatClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-09 19:02:37.930 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.yanhuo.platform.client.EsClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-09 19:02:37.932 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.yanhuo.platform.client.OssClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-09 19:02:38.512 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8801 (http) with context path '/auth'
+2024-08-09 19:02:38.760 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8803 (http)
+2024-08-09 19:02:38.784 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 19:02:38.785 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-08-09 19:02:38.788 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-08-09 19:02:38.789 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-08-09 19:02:38.789 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-09 19:02:38.796 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-08-09 19:02:39.108 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/platform] - Initializing Spring embedded WebApplicationContext
+2024-08-09 19:02:39.111 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3212 ms
+2024-08-09 19:02:39.443 [main] INFO  com.yanhuo.auth.AuthApplication - Started AuthApplication in 13.506 seconds (JVM running for 15.817)
+2024-08-09 19:02:41.856 [main] INFO  com.yanhuo.search.SearchApplication - The following profiles are active: test
+2024-08-09 19:02:43.090 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-09 19:02:43.096 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-09 19:02:43.145 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2024-08-09 19:02:43.577 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=32f9f939-7f44-32dd-aa7b-abb29477f119
+2024-08-09 19:02:43.706 [main] INFO  com.yanhuo.platform.config.XxlJobConfig - >>>>>>>>>>> xxl-job config init.
+2024-08-09 19:02:43.980 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 19:02:43.981 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 19:02:44.001 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 19:02:44.001 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 19:02:44.359 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8804 (http)
+2024-08-09 19:02:44.377 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 19:02:44.378 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-08-09 19:02:44.381 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-08-09 19:02:44.382 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-08-09 19:02:44.382 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-09 19:02:44.389 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-08-09 19:02:44.701 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/search] - Initializing Spring embedded WebApplicationContext
+2024-08-09 19:02:44.702 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2823 ms
+2024-08-09 19:02:45.541 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:noteJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@3404e5c4[class com.yanhuo.platform.xxljob.NoteJobHandler#execute]
+2024-08-09 19:02:45.871 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8803 (http) with context path '/platform'
+2024-08-09 19:02:47.268 [main] INFO  com.yanhuo.platform.PlatformApplication - Started PlatformApplication in 14.874 seconds (JVM running for 17.31)
+2024-08-09 19:02:47.910 [Thread-34] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9998
+2024-08-09 19:02:48.140 [main] INFO  com.yanhuo.util.UtilApplication - No active profile set, falling back to default profiles: default
+2024-08-09 19:02:49.052 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-09 19:02:49.056 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-09 19:02:49.095 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2024-08-09 19:02:49.279 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yanhuo.xo.dao]' package. Please check your configuration.
+2024-08-09 19:02:49.368 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=29dde88d-2e50-3b57-99e3-38527f061551
+2024-08-09 19:02:50.264 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8805 (http)
+2024-08-09 19:02:50.286 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 19:02:50.288 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-08-09 19:02:50.292 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-08-09 19:02:50.292 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-08-09 19:02:50.293 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-09 19:02:50.302 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-08-09 19:02:50.389 [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-09 19:02:50.391 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='yanhuo-xxl-job-executor', registryValue='http://127.0.0.1:9998/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
+2024-08-09 19:02:50.558 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 19:02:50.559 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 19:02:50.564 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 19:02:50.564 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 19:02:50.668 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/util] - Initializing Spring embedded WebApplicationContext
+2024-08-09 19:02:50.668 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2500 ms
+2024-08-09 19:02:51.539 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 19:02:51.539 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 19:02:51.543 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 19:02:51.543 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 19:02:51.926 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8804 (http) with context path '/search'
+2024-08-09 19:02:52.616 [main] INFO  com.yanhuo.search.SearchApplication - Started SearchApplication in 13.696 seconds (JVM running for 16.226)
+2024-08-09 19:02:53.859 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8805 (http) with context path '/util'
+2024-08-09 19:02:54.430 [main] INFO  com.yanhuo.util.UtilApplication - Started UtilApplication in 10.021 seconds (JVM running for 12.352)
+2024-08-09 19:03:22.450 [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-09 19:03:22.451 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='yanhuo-xxl-job-executor', registryValue='http://127.0.0.1:9998/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
+2024-08-09 19:03:29.916 [http-nio-8802-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/im] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-09 19:03:29.917 [http-nio-8802-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-09 19:03:29.927 [http-nio-8802-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2024-08-09 19:03:30.014 [http-nio-8802-exec-3] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=1
+2024-08-09 19:03:30.207 [http-nio-8802-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:30.292 [http-nio-8804-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/search] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-09 19:03:30.293 [http-nio-8804-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-09 19:03:30.299 [http-nio-8803-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/platform] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-09 19:03:30.299 [http-nio-8803-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-09 19:03:30.306 [http-nio-8804-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2024-08-09 19:03:30.311 [http-nio-8803-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2024-08-09 19:03:30.328 [http-nio-8804-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:30.328 [http-nio-8804-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:30.333 [http-nio-8803-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:30.755 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:03:30.759 [http-nio-8804-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:03:30.760 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:03:30.764 [http-nio-8804-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:03:30.768 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:03:30.773 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:03:30.897 [http-nio-8802-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-09 19:03:30.960 [http-nio-8804-exec-1] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:30.961 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:03:30.962 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:31.103 [http-nio-8803-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:03:31.107 [http-nio-8803-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:03:31.219 [http-nio-8803-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-09 19:03:31.234 [http-nio-8804-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:31.365 [http-nio-8804-exec-2] WARN  org.elasticsearch.client.RestClient - request [POST http://192.168.55.132:9200/note_index/_search?typed_keys=true] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:31.455 [http-nio-8804-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@6dcf63a8
+2024-08-09 19:03:31.455 [http-nio-8804-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@6dcf63a8)
+2024-08-09 19:03:31.468 [http-nio-8804-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:31.688 [http-nio-8803-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-09 19:03:31.765 [http-nio-8802-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-09 19:03:31.923 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:03:31.924 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:32.018 [http-nio-8803-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with result = [CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)]
+2024-08-09 19:03:32.021 [http-nio-8803-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with result = Result(code=200, message=成功, data=[CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)])
+2024-08-09 19:03:32.130 [http-nio-8802-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:32.184 [http-nio-8802-exec-7] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:32.191 [http-nio-8802-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:03:32.194 [http-nio-8802-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:03:32.291 [http-nio-8803-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:33.740 [http-nio-8802-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:03:33.741 [http-nio-8802-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:03:33.745 [http-nio-8802-exec-7] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:35.791 [http-nio-8802-exec-8] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=2
+2024-08-09 19:03:35.852 [http-nio-8802-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:35.853 [http-nio-8803-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:35.854 [http-nio-8804-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:35.854 [http-nio-8804-exec-3] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:35.855 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:03:35.856 [http-nio-8803-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:03:35.856 [http-nio-8803-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:03:35.856 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:03:35.857 [http-nio-8804-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:03:35.857 [http-nio-8804-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:03:35.857 [http-nio-8804-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:03:35.857 [http-nio-8804-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:03:35.862 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:03:35.862 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:35.864 [http-nio-8802-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:35.876 [http-nio-8804-exec-4] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:35.878 [http-nio-8804-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:03:35.878 [http-nio-8804-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:35.881 [http-nio-8803-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with result = [CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)]
+2024-08-09 19:03:35.882 [http-nio-8803-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with result = Result(code=200, message=成功, data=[CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)])
+2024-08-09 19:03:35.880 [http-nio-8804-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:35.886 [http-nio-8803-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:35.956 [http-nio-8802-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:35.958 [http-nio-8802-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:03:35.958 [http-nio-8802-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:03:35.965 [http-nio-8802-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:03:35.965 [http-nio-8802-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:03:35.967 [http-nio-8802-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:35.973 [http-nio-8804-exec-3] WARN  org.elasticsearch.client.RestClient - request [POST http://192.168.55.132:9200/note_index/_search?typed_keys=true] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:35.994 [http-nio-8804-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@33de5d9d
+2024-08-09 19:03:35.995 [http-nio-8804-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@33de5d9d)
+2024-08-09 19:03:35.997 [http-nio-8804-exec-3] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:38.975 [http-nio-8802-exec-5] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=1
+2024-08-09 19:03:45.277 [http-nio-8802-exec-6] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=2
+2024-08-09 19:03:45.328 [http-nio-8802-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:45.331 [http-nio-8804-exec-5] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:45.334 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:03:45.334 [http-nio-8804-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:03:45.335 [http-nio-8804-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:03:45.334 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:03:45.334 [http-nio-8803-exec-3] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:45.342 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:03:45.343 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:45.344 [http-nio-8802-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:45.347 [http-nio-8804-exec-5] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:45.348 [http-nio-8804-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:03:45.350 [http-nio-8804-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:45.354 [http-nio-8804-exec-5] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:45.356 [http-nio-8803-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.FollowerController.getFollowTrendPage() with argument[s] = [1, 5]
+2024-08-09 19:03:45.361 [http-nio-8803-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.FollowerServiceImpl.getFollowTrendPage() with argument[s] = [1, 5]
+2024-08-09 19:03:45.363 [http-nio-8802-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:45.367 [http-nio-8802-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:03:45.367 [http-nio-8802-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:03:45.370 [http-nio-8802-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:03:45.370 [http-nio-8802-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:03:45.371 [http-nio-8802-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:45.602 [http-nio-8803-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.FollowerServiceImpl.getFollowTrendPage() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@2c6dae2
+2024-08-09 19:03:45.602 [http-nio-8803-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.FollowerController.getFollowTrendPage() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@2c6dae2)
+2024-08-09 19:03:45.609 [http-nio-8803-exec-3] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:47.603 [http-nio-8802-exec-3] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=3
+2024-08-09 19:03:47.629 [http-nio-8802-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:47.629 [http-nio-8804-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:47.631 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:03:47.632 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:03:47.632 [http-nio-8804-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:03:47.634 [http-nio-8804-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:03:47.641 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:03:47.641 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:47.644 [http-nio-8802-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:47.648 [http-nio-8804-exec-6] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:47.649 [http-nio-8804-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:03:47.649 [http-nio-8804-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:47.657 [http-nio-8804-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:47.667 [http-nio-8802-exec-7] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:47.669 [http-nio-8802-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:03:47.670 [http-nio-8802-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:03:47.674 [http-nio-8802-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:03:47.674 [http-nio-8802-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:03:47.675 [http-nio-8802-exec-7] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:49.775 [http-nio-8802-exec-8] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=4
+2024-08-09 19:03:49.793 [http-nio-8802-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:49.795 [http-nio-8803-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:49.795 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:03:49.797 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:03:49.795 [http-nio-8804-exec-7] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:49.800 [http-nio-8803-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.FollowerController.getFollowTrendPage() with argument[s] = [1, 5]
+2024-08-09 19:03:49.801 [http-nio-8804-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:03:49.803 [http-nio-8804-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:03:49.803 [http-nio-8803-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.FollowerServiceImpl.getFollowTrendPage() with argument[s] = [1, 5]
+2024-08-09 19:03:49.804 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:03:49.805 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:49.806 [http-nio-8802-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:49.810 [http-nio-8804-exec-7] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:49.810 [http-nio-8804-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:03:49.810 [http-nio-8804-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:49.812 [http-nio-8804-exec-7] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:49.821 [http-nio-8802-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:49.823 [http-nio-8802-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:03:49.824 [http-nio-8802-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:03:49.826 [http-nio-8802-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:03:49.826 [http-nio-8802-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:03:49.828 [http-nio-8802-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:49.841 [http-nio-8803-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.FollowerServiceImpl.getFollowTrendPage() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@3a58e7a7
+2024-08-09 19:03:49.842 [http-nio-8803-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.FollowerController.getFollowTrendPage() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@3a58e7a7)
+2024-08-09 19:03:49.842 [http-nio-8803-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:52.144 [http-nio-8802-exec-5] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=5
+2024-08-09 19:03:52.200 [http-nio-8802-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:52.200 [http-nio-8804-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:52.200 [http-nio-8803-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:52.202 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:03:52.202 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:03:52.203 [http-nio-8803-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:03:52.203 [http-nio-8803-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:03:52.204 [http-nio-8804-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:03:52.206 [http-nio-8804-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:03:52.208 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:03:52.209 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:52.210 [http-nio-8802-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:52.223 [http-nio-8803-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with result = [CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)]
+2024-08-09 19:03:52.223 [http-nio-8803-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with result = Result(code=200, message=成功, data=[CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)])
+2024-08-09 19:03:52.221 [http-nio-8804-exec-8] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:52.225 [http-nio-8804-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:03:52.225 [http-nio-8804-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:52.226 [http-nio-8803-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:52.226 [http-nio-8804-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:52.232 [http-nio-8802-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:52.235 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:03:52.235 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:03:52.237 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:03:52.238 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:03:52.239 [http-nio-8802-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:53.475 [http-nio-8802-exec-10] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=6
+2024-08-09 19:03:53.514 [http-nio-8802-exec-3] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:53.514 [http-nio-8803-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:53.514 [http-nio-8804-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:53.515 [http-nio-8802-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:03:53.516 [http-nio-8803-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:03:53.516 [http-nio-8802-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:03:53.516 [http-nio-8803-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:03:53.517 [http-nio-8804-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:03:53.517 [http-nio-8804-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:03:53.520 [http-nio-8802-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:03:53.522 [http-nio-8802-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:53.523 [http-nio-8802-exec-3] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:53.537 [http-nio-8804-exec-10] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:53.538 [http-nio-8804-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:03:53.538 [http-nio-8804-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:53.538 [http-nio-8803-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with result = [CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)]
+2024-08-09 19:03:53.538 [http-nio-8803-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with result = Result(code=200, message=成功, data=[CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)])
+2024-08-09 19:03:53.539 [http-nio-8804-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:53.540 [http-nio-8803-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:53.545 [http-nio-8802-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:53.548 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:03:53.548 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:03:53.551 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:03:53.551 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:03:53.552 [http-nio-8802-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:54.506 [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-09 19:03:54.507 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='yanhuo-xxl-job-executor', registryValue='http://127.0.0.1:9998/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
+2024-08-09 19:03:54.546 [http-nio-8802-exec-7] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=7
+2024-08-09 19:03:54.573 [http-nio-8802-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:54.573 [http-nio-8803-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:54.573 [http-nio-8804-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:54.575 [http-nio-8802-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:03:54.575 [http-nio-8802-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:03:54.576 [http-nio-8803-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:03:54.575 [http-nio-8804-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:03:54.576 [http-nio-8804-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:03:54.576 [http-nio-8803-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:03:54.581 [http-nio-8802-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:03:54.581 [http-nio-8802-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:54.583 [http-nio-8802-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:54.598 [http-nio-8804-exec-9] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:54.598 [http-nio-8804-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:03:54.598 [http-nio-8804-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:54.601 [http-nio-8804-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:54.602 [http-nio-8803-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with result = [CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)]
+2024-08-09 19:03:54.604 [http-nio-8803-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with result = Result(code=200, message=成功, data=[CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)])
+2024-08-09 19:03:54.605 [http-nio-8803-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:54.608 [http-nio-8802-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:54.609 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:03:54.610 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:03:54.612 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:03:54.612 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:03:54.614 [http-nio-8802-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:55.509 [http-nio-8802-exec-2] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=8
+2024-08-09 19:03:55.531 [http-nio-8804-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:55.531 [http-nio-8802-exec-5] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:55.535 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:03:55.535 [http-nio-8802-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:03:55.535 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:03:55.535 [http-nio-8802-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:03:55.543 [http-nio-8804-exec-1] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:03:55.543 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:03:55.543 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:55.544 [http-nio-8802-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:03:55.544 [http-nio-8802-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:03:55.545 [http-nio-8804-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:55.546 [http-nio-8802-exec-5] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:55.558 [http-nio-8802-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:55.559 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:03:55.559 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:03:55.561 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:03:55.561 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:03:55.562 [http-nio-8802-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:56.839 [http-nio-8802-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:56.850 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.clearMessageCount() with argument[s] = [1599618448034959361, 0]
+2024-08-09 19:03:56.850 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.clearMessageCount() with argument[s] = [1599618448034959361, 0]
+2024-08-09 19:03:56.904 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.clearMessageCount() with result = null
+2024-08-09 19:03:56.904 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.clearMessageCount() with result = Result(code=200, message=成功, data=null)
+2024-08-09 19:03:56.905 [http-nio-8802-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:56.920 [http-nio-8803-exec-5] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:56.927 [http-nio-8803-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.LikeOrCollectionController.getNoticeLikeOrCollection() with argument[s] = [1, 12]
+2024-08-09 19:03:56.929 [http-nio-8803-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.LikeOrCollectionServiceImpl.getNoticeLikeOrCollection() with argument[s] = [1, 12]
+2024-08-09 19:03:56.940 [http-nio-8803-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.LikeOrCollectionServiceImpl.getNoticeLikeOrCollection() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@622482fe
+2024-08-09 19:03:56.940 [http-nio-8803-exec-5] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.LikeOrCollectionController.getNoticeLikeOrCollection() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@622482fe)
+2024-08-09 19:03:56.941 [http-nio-8803-exec-5] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:57.086 [http-nio-8802-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:57.087 [http-nio-8802-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.clearMessageCount() with argument[s] = [1599618448034959361, 2]
+2024-08-09 19:03:57.088 [http-nio-8802-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.clearMessageCount() with argument[s] = [1599618448034959361, 2]
+2024-08-09 19:03:57.093 [http-nio-8802-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.clearMessageCount() with result = null
+2024-08-09 19:03:57.093 [http-nio-8802-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.clearMessageCount() with result = Result(code=200, message=成功, data=null)
+2024-08-09 19:03:57.094 [http-nio-8802-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:57.110 [http-nio-8803-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:57.111 [http-nio-8803-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.FollowerController.getNoticeFollower() with argument[s] = [1, 12]
+2024-08-09 19:03:57.112 [http-nio-8803-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.FollowerServiceImpl.getNoticeFollower() with argument[s] = [1, 12]
+2024-08-09 19:03:57.171 [http-nio-8803-exec-4] ERROR com.yanhuo.common.logger.LoggingAspect - Exception in com.yanhuo.platform.service.impl.FollowerServiceImpl.getNoticeFollower() with cause = 'java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' and exception = '
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+### The error may exist in com/yanhuo/xo/dao/UserDao.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,yx_id,username,password,avatar,gender,phone,email,description,status,birthday,address,user_cover,trend_count,follower_count,fan_count,creator,create_date,updater,update_date FROM t_user WHERE id IN ( )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1'
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+### The error may exist in com/yanhuo/xo/dao/UserDao.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,yx_id,username,password,avatar,gender,phone,email,description,status,birthday,address,user_cover,trend_count,follower_count,fan_count,creator,create_date,updater,update_date FROM t_user WHERE id IN ( )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy92.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy94.selectBatchIds(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.listByIds(IService.java:301)
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.yanhuo.platform.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$167ba0fb.listByIds(<generated>)
+	at com.yanhuo.platform.service.impl.FollowerServiceImpl.getNoticeFollower(FollowerServiceImpl.java:143)
+	at com.yanhuo.platform.service.impl.FollowerServiceImpl$$FastClassBySpringCGLIB$$351f2bf8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.yanhuo.common.logger.LoggingAspect.logAround(LoggingAspect.java:94)
+	at sun.reflect.GeneratedMethodAccessor130.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.yanhuo.platform.service.impl.FollowerServiceImpl$$EnhancerBySpringCGLIB$$9842dd02.getNoticeFollower(<generated>)
+	at com.yanhuo.platform.controller.FollowerController.getNoticeFollower(FollowerController.java:84)
+	at com.yanhuo.platform.controller.FollowerController$$FastClassBySpringCGLIB$$9f823976.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.yanhuo.common.logger.LoggingAspect.logAround(LoggingAspect.java:94)
+	at sun.reflect.GeneratedMethodAccessor130.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.yanhuo.platform.controller.FollowerController$$EnhancerBySpringCGLIB$$1dfb39f5.getNoticeFollower(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.GeneratedMethodAccessor135.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy151.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at sun.reflect.GeneratedMethodAccessor134.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy149.query(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy148.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 108 common frames omitted
+2024-08-09 19:03:57.172 [http-nio-8803-exec-4] ERROR com.yanhuo.common.logger.LoggingAspect - Exception in com.yanhuo.platform.controller.FollowerController.getNoticeFollower() with cause = 'java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' and exception = '
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+### The error may exist in com/yanhuo/xo/dao/UserDao.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,yx_id,username,password,avatar,gender,phone,email,description,status,birthday,address,user_cover,trend_count,follower_count,fan_count,creator,create_date,updater,update_date FROM t_user WHERE id IN ( )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1'
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+### The error may exist in com/yanhuo/xo/dao/UserDao.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,yx_id,username,password,avatar,gender,phone,email,description,status,birthday,address,user_cover,trend_count,follower_count,fan_count,creator,create_date,updater,update_date FROM t_user WHERE id IN ( )
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy92.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy94.selectBatchIds(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.listByIds(IService.java:301)
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.yanhuo.platform.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$167ba0fb.listByIds(<generated>)
+	at com.yanhuo.platform.service.impl.FollowerServiceImpl.getNoticeFollower(FollowerServiceImpl.java:143)
+	at com.yanhuo.platform.service.impl.FollowerServiceImpl$$FastClassBySpringCGLIB$$351f2bf8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.yanhuo.common.logger.LoggingAspect.logAround(LoggingAspect.java:94)
+	at sun.reflect.GeneratedMethodAccessor130.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.yanhuo.platform.service.impl.FollowerServiceImpl$$EnhancerBySpringCGLIB$$9842dd02.getNoticeFollower(<generated>)
+	at com.yanhuo.platform.controller.FollowerController.getNoticeFollower(FollowerController.java:84)
+	at com.yanhuo.platform.controller.FollowerController$$FastClassBySpringCGLIB$$9f823976.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.yanhuo.common.logger.LoggingAspect.logAround(LoggingAspect.java:94)
+	at sun.reflect.GeneratedMethodAccessor130.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.yanhuo.platform.controller.FollowerController$$EnhancerBySpringCGLIB$$1dfb39f5.getNoticeFollower(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.GeneratedMethodAccessor135.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy151.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at sun.reflect.GeneratedMethodAccessor134.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy149.query(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy148.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 108 common frames omitted
+2024-08-09 19:03:57.178 [http-nio-8803-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:58.262 [http-nio-8802-exec-3] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:58.264 [http-nio-8802-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.clearMessageCount() with argument[s] = [1599618448034959361, 0]
+2024-08-09 19:03:58.264 [http-nio-8802-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.clearMessageCount() with argument[s] = [1599618448034959361, 0]
+2024-08-09 19:03:58.266 [http-nio-8802-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.clearMessageCount() with result = null
+2024-08-09 19:03:58.267 [http-nio-8802-exec-3] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.clearMessageCount() with result = Result(code=200, message=成功, data=null)
+2024-08-09 19:03:58.268 [http-nio-8802-exec-3] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:58.277 [http-nio-8803-exec-7] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:58.278 [http-nio-8803-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.LikeOrCollectionController.getNoticeLikeOrCollection() with argument[s] = [1, 12]
+2024-08-09 19:03:58.278 [http-nio-8803-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.LikeOrCollectionServiceImpl.getNoticeLikeOrCollection() with argument[s] = [1, 12]
+2024-08-09 19:03:58.283 [http-nio-8803-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.LikeOrCollectionServiceImpl.getNoticeLikeOrCollection() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@367013d3
+2024-08-09 19:03:58.283 [http-nio-8803-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.LikeOrCollectionController.getNoticeLikeOrCollection() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@367013d3)
+2024-08-09 19:03:58.285 [http-nio-8803-exec-7] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:59.394 [http-nio-8802-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:59.395 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.clearMessageCount() with argument[s] = [1599618448034959361, 1]
+2024-08-09 19:03:59.396 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.clearMessageCount() with argument[s] = [1599618448034959361, 1]
+2024-08-09 19:03:59.413 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.clearMessageCount() with result = null
+2024-08-09 19:03:59.413 [http-nio-8802-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.clearMessageCount() with result = Result(code=200, message=成功, data=null)
+2024-08-09 19:03:59.414 [http-nio-8802-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:03:59.425 [http-nio-8803-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:03:59.428 [http-nio-8803-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.CommentController.getNoticeComment() with argument[s] = [1, 12]
+2024-08-09 19:03:59.431 [http-nio-8803-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.CommentServiceImpl.getNoticeComment() with argument[s] = [1, 12]
+2024-08-09 19:03:59.452 [http-nio-8803-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.CommentServiceImpl.getNoticeComment() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@44661e8f
+2024-08-09 19:03:59.452 [http-nio-8803-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.CommentController.getNoticeComment() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@44661e8f)
+2024-08-09 19:03:59.454 [http-nio-8803-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:04:01.613 [http-nio-8802-exec-7] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=9
+2024-08-09 19:04:01.638 [http-nio-8802-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:04:01.638 [http-nio-8804-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:04:01.638 [http-nio-8803-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:04:01.640 [http-nio-8802-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:04:01.640 [http-nio-8804-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:04:01.642 [http-nio-8802-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:04:01.643 [http-nio-8803-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:04:01.643 [http-nio-8803-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:04:01.643 [http-nio-8804-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:04:01.644 [http-nio-8804-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:04:01.646 [http-nio-8804-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:04:01.647 [http-nio-8804-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:04:01.654 [http-nio-8802-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:04:01.657 [http-nio-8802-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:04:01.659 [http-nio-8802-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:04:01.665 [http-nio-8803-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with result = [CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)]
+2024-08-09 19:04:01.665 [http-nio-8803-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with result = Result(code=200, message=成功, data=[CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)])
+2024-08-09 19:04:01.667 [http-nio-8803-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:04:01.675 [http-nio-8802-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:04:01.676 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:04:01.677 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:04:01.678 [http-nio-8804-exec-4] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:04:01.678 [http-nio-8804-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:04:01.678 [http-nio-8804-exec-4] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:04:01.680 [http-nio-8804-exec-4] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:04:01.699 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:04:01.699 [http-nio-8802-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:04:01.702 [http-nio-8802-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:04:01.730 [http-nio-8804-exec-2] WARN  org.elasticsearch.client.RestClient - request [POST http://192.168.55.132:9200/note_index/_search?typed_keys=true] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:04:01.737 [http-nio-8804-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@777e7b86
+2024-08-09 19:04:01.738 [http-nio-8804-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@777e7b86)
+2024-08-09 19:04:01.740 [http-nio-8804-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:04:26.571 [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-09 19:04:26.572 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='yanhuo-xxl-job-executor', registryValue='http://127.0.0.1:9998/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
+2024-08-09 19:04:58.629 [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-09 19:04:58.630 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='yanhuo-xxl-job-executor', registryValue='http://127.0.0.1:9998/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
+2024-08-09 19:05:30.698 [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-09 19:05:30.699 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='yanhuo-xxl-job-executor', registryValue='http://127.0.0.1:9998/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
+2024-08-09 19:05:33.975 [http-nio-8802-exec-5] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361加入webSocket！当前人数为=10
+2024-08-09 19:05:34.046 [http-nio-8802-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:05:34.049 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getChatUserList() with argument[s] = []
+2024-08-09 19:05:34.049 [http-nio-8804-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:05:34.050 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with argument[s] = []
+2024-08-09 19:05:34.052 [http-nio-8804-exec-7] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:05:34.052 [http-nio-8804-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:05:34.052 [http-nio-8804-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:05:34.054 [http-nio-8804-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:05:34.054 [http-nio-8804-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:05:34.052 [http-nio-8803-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:05:34.056 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getChatUserList() with result = []
+2024-08-09 19:05:34.056 [http-nio-8802-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getChatUserList() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:05:34.057 [http-nio-8803-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:05:34.057 [http-nio-8802-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:34.057 [http-nio-8803-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:05:34.063 [http-nio-8804-exec-7] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:05:34.064 [http-nio-8804-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:05:34.064 [http-nio-8804-exec-7] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:05:34.067 [http-nio-8804-exec-7] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:34.071 [http-nio-8803-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with result = [CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)]
+2024-08-09 19:05:34.071 [http-nio-8803-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with result = Result(code=200, message=成功, data=[CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)])
+2024-08-09 19:05:34.074 [http-nio-8803-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:34.074 [http-nio-8802-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:05:34.076 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.controller.ChatController.getCountMessage() with argument[s] = []
+2024-08-09 19:05:34.076 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with argument[s] = []
+2024-08-09 19:05:34.087 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.service.impl.ChatServiceImpl.getCountMessage() with result = CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0)
+2024-08-09 19:05:34.087 [http-nio-8802-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.im.controller.ChatController.getCountMessage() with result = Result(code=200, message=成功, data=CountMessage(uid=null, likeOrCollectionCount=0, commentCount=0, followCount=0))
+2024-08-09 19:05:34.089 [http-nio-8802-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:34.147 [http-nio-8804-exec-6] WARN  org.elasticsearch.client.RestClient - request [POST http://192.168.55.132:9200/note_index/_search?typed_keys=true] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:05:34.156 [http-nio-8804-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@f5c2034
+2024-08-09 19:05:34.156 [http-nio-8804-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@f5c2034)
+2024-08-09 19:05:34.158 [http-nio-8804-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:34.173 [http-nio-8801-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-09 19:05:34.175 [http-nio-8801-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-09 19:05:34.230 [http-nio-8801-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 54 ms
+2024-08-09 19:05:34.252 [http-nio-8801-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzIzMTI2Mzc3LCJleHAiOjE3MjMyMTI3NzcsInVzZXJJZCI6IjE1OTk2MTg0NDgwMzQ5NTkzNjEifQ.o4K7d5FOr00IT5EAQCnWddjfewGUZRrND_6naUck6jA,1599618448034959361
+2024-08-09 19:05:34.635 [http-nio-8801-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.auth.controller.AuthUserController.loginOut() with argument[s] = [1599618448034959361]
+2024-08-09 19:05:34.641 [http-nio-8801-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.auth.service.impl.AuthUserServiceImpl.loginOut() with argument[s] = [1599618448034959361]
+2024-08-09 19:05:35.942 [http-nio-8801-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.auth.service.impl.AuthUserServiceImpl.loginOut() with result = null
+2024-08-09 19:05:35.943 [http-nio-8801-exec-2] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.auth.controller.AuthUserController.loginOut() with result = Result(code=200, message=成功, data=null)
+2024-08-09 19:05:36.053 [http-nio-8801-exec-2] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:37.003 [http-nio-8801-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:null,null
+2024-08-09 19:05:37.056 [http-nio-8804-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:null,null
+2024-08-09 19:05:37.057 [http-nio-8804-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:null,null
+2024-08-09 19:05:37.057 [http-nio-8803-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:null,null
+2024-08-09 19:05:37.058 [http-nio-8804-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:05:37.058 [http-nio-8803-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:05:37.058 [http-nio-8804-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:05:37.058 [http-nio-8804-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:05:37.058 [http-nio-8803-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:05:37.058 [http-nio-8804-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:05:37.066 [http-nio-8804-exec-10] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:05:37.066 [http-nio-8804-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:05:37.068 [http-nio-8804-exec-10] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:05:37.071 [http-nio-8804-exec-10] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:37.075 [http-nio-8803-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with result = [CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)]
+2024-08-09 19:05:37.075 [http-nio-8803-exec-6] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with result = Result(code=200, message=成功, data=[CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)])
+2024-08-09 19:05:37.078 [http-nio-8803-exec-6] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:37.130 [http-nio-8804-exec-8] WARN  org.elasticsearch.client.RestClient - request [POST http://192.168.55.132:9200/note_index/_search?typed_keys=true] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:05:37.137 [http-nio-8804-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@57fbe120
+2024-08-09 19:05:37.137 [http-nio-8804-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@57fbe120)
+2024-08-09 19:05:37.139 [http-nio-8804-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:37.699 [http-nio-8802-exec-7] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=6
+2024-08-09 19:05:37.695 [http-nio-8802-exec-3] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=9
+2024-08-09 19:05:37.697 [http-nio-8802-exec-4] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=7
+2024-08-09 19:05:37.701 [http-nio-8802-exec-8] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=3
+2024-08-09 19:05:37.701 [http-nio-8802-exec-5] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=2
+2024-08-09 19:05:37.696 [http-nio-8802-exec-10] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=8
+2024-08-09 19:05:37.701 [http-nio-8802-exec-2] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=3
+2024-08-09 19:05:37.701 [http-nio-8802-exec-1] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=3
+2024-08-09 19:05:37.701 [http-nio-8802-exec-9] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=1
+2024-08-09 19:05:37.702 [http-nio-8802-exec-6] INFO  com.yanhuo.im.websocket.WebSocketServer - 1599618448034959361断开webSocket连接！当前人数为=0
+2024-08-09 19:05:38.339 [http-nio-8804-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:null,null
+2024-08-09 19:05:38.339 [http-nio-8804-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:null,null
+2024-08-09 19:05:38.339 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.RecordController.getHotRecord() with argument[s] = []
+2024-08-09 19:05:38.339 [http-nio-8803-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - accessToken:null,null
+2024-08-09 19:05:38.340 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with argument[s] = []
+2024-08-09 19:05:38.340 [http-nio-8803-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:05:38.340 [http-nio-8804-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:05:38.340 [http-nio-8804-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with argument[s] = [1, 20]
+2024-08-09 19:05:38.340 [http-nio-8803-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Enter: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with argument[s] = []
+2024-08-09 19:05:38.344 [http-nio-8804-exec-1] WARN  org.elasticsearch.client.RestClient - request [HEAD http://192.168.55.132:9200/recoed_index] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:05:38.345 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.RecordServiceImpl.getHotRecord() with result = []
+2024-08-09 19:05:38.345 [http-nio-8804-exec-1] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.RecordController.getHotRecord() with result = Result(code=200, message=成功, data=[])
+2024-08-09 19:05:38.346 [http-nio-8804-exec-1] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:38.353 [http-nio-8803-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.service.impl.CategoryServiceImpl.getCategoryTreeData() with result = [CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)]
+2024-08-09 19:05:38.353 [http-nio-8803-exec-8] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.platform.controller.CategoryController.getCategoryTreeData() with result = Result(code=200, message=成功, data=[CategoryVo(title=头像, likeCount=0), CategoryVo(title=壁纸, likeCount=0), CategoryVo(title=艺术, likeCount=0), CategoryVo(title=风景, likeCount=0), CategoryVo(title=影视, likeCount=0), CategoryVo(title=动漫, likeCount=0), CategoryVo(title=动物, likeCount=0), CategoryVo(title=绘画, likeCount=0), CategoryVo(title=美食, likeCount=0), CategoryVo(title=汽车, likeCount=0)])
+2024-08-09 19:05:38.356 [http-nio-8803-exec-8] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:05:38.432 [http-nio-8804-exec-9] WARN  org.elasticsearch.client.RestClient - request [POST http://192.168.55.132:9200/note_index/_search?typed_keys=true] returned 1 warnings: [299 Elasticsearch-7.16.3-4e6e4eab2297e949ec994e688dad46290d018022 "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security."]
+2024-08-09 19:05:38.439 [http-nio-8804-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.service.impl.NoteServiceImpl.getRecommendNotePage() with result = com.baomidou.mybatisplus.extension.plugins.pagination.Page@78f7a731
+2024-08-09 19:05:38.439 [http-nio-8804-exec-9] DEBUG com.yanhuo.common.logger.LoggingAspect - Exit: com.yanhuo.search.controller.NoteController.getRecommendNotePage() with result = Result(code=200, message=成功, data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@78f7a731)
+2024-08-09 19:05:38.442 [http-nio-8804-exec-9] INFO  com.yanhuo.common.auth.UserLoginInterceptor - 清除UserID
+2024-08-09 19:06:02.749 [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-09 19:06:02.751 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='yanhuo-xxl-job-executor', registryValue='http://127.0.0.1:9998/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
+2024-08-09 19:06:12.952 [Thread-34] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server stop.
+2024-08-09 19:06:13.115 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-09 19:06:13.124 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-09 19:06:14.992 [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registryRemove(AdminBizClient.java:47)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:84)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-09 19:06:14.993 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='yanhuo-xxl-job-executor', registryValue='http://127.0.0.1:9998/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registryRemove, content=null]
+2024-08-09 19:06:14.993 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-08-09 19:06:14.993 [SpringContextShutdownHook] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-08-09 19:06:14.994 [xxl-job, executor JobLogFileCleanThread] INFO  com.xxl.job.core.thread.JobLogFileCleanThread - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-08-09 19:06:14.994 [xxl-job, executor TriggerCallbackThread] INFO  com.xxl.job.core.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-08-09 19:06:14.995 [Thread-33] INFO  com.xxl.job.core.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-08-09 19:06:15.012 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-09 19:06:15.030 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-09 22:36:24.090 [main] INFO  com.yanhuo.im.ImApplication - The following profiles are active: test
+2024-08-09 22:36:26.051 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-09 22:36:26.055 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-09 22:36:26.096 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2024-08-09 22:36:26.388 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=1be28549-0e0e-3c3e-95a0-3316a6538a59
+2024-08-09 22:36:27.063 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8802 (http)
+2024-08-09 22:36:27.076 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 22:36:27.077 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-08-09 22:36:27.080 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-08-09 22:36:27.080 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-08-09 22:36:27.080 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-09 22:36:27.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-08-09 22:36:27.295 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/im] - Initializing Spring embedded WebApplicationContext
+2024-08-09 22:36:27.297 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3185 ms
+2024-08-09 22:36:29.108 [main] INFO  com.yanhuo.auth.AuthApplication - The following profiles are active: test
+2024-08-09 22:36:30.369 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-09 22:36:30.440 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-09 22:36:30.654 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2024-08-09 22:36:31.732 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=f274fffe-51a7-3184-925c-49d39d1fd4a6
+2024-08-09 22:36:32.227 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 22:36:32.227 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 22:36:32.233 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 22:36:32.233 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 22:36:32.463 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8801 (http)
+2024-08-09 22:36:32.477 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 22:36:32.478 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-08-09 22:36:32.482 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-08-09 22:36:32.482 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-08-09 22:36:32.482 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-09 22:36:32.489 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-08-09 22:36:32.693 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2024-08-09 22:36:32.693 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3556 ms
+2024-08-09 22:36:33.879 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8802 (http) with context path '/im'
+2024-08-09 22:36:35.200 [main] INFO  com.yanhuo.im.ImApplication - Started ImApplication in 13.393 seconds (JVM running for 16.087)
+2024-08-09 22:36:38.026 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 22:36:38.027 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 22:36:38.034 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 22:36:38.034 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 22:36:38.606 [main] INFO  com.yanhuo.platform.PlatformApplication - The following profiles are active: test
+2024-08-09 22:36:39.845 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-09 22:36:39.850 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-09 22:36:39.908 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+2024-08-09 22:36:39.986 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8801 (http) with context path '/auth'
+2024-08-09 22:36:40.271 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=c83c4f09-b534-3cf3-8a9b-d019beed4e69
+2024-08-09 22:36:40.290 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.yanhuo.platform.client.ChatClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-09 22:36:40.292 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.yanhuo.platform.client.EsClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-09 22:36:40.294 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.yanhuo.platform.client.OssClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-09 22:36:40.755 [main] INFO  com.yanhuo.auth.AuthApplication - Started AuthApplication in 13.777 seconds (JVM running for 16.148)
+2024-08-09 22:36:40.802 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8803 (http)
+2024-08-09 22:36:40.810 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 22:36:40.810 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-08-09 22:36:40.812 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-08-09 22:36:40.813 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-08-09 22:36:40.813 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-09 22:36:40.817 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-08-09 22:36:40.959 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/platform] - Initializing Spring embedded WebApplicationContext
+2024-08-09 22:36:40.960 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2272 ms
+2024-08-09 22:36:41.981 [main] INFO  com.yanhuo.search.SearchApplication - The following profiles are active: test
+2024-08-09 22:36:43.379 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-09 22:36:43.384 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-09 22:36:43.430 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2024-08-09 22:36:43.698 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=32f9f939-7f44-32dd-aa7b-abb29477f119
+2024-08-09 22:36:44.137 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8804 (http)
+2024-08-09 22:36:44.147 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 22:36:44.147 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-08-09 22:36:44.150 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-08-09 22:36:44.150 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-08-09 22:36:44.150 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-09 22:36:44.154 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-08-09 22:36:44.290 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/search] - Initializing Spring embedded WebApplicationContext
+2024-08-09 22:36:44.291 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2285 ms
+2024-08-09 22:36:44.731 [main] INFO  com.yanhuo.platform.config.XxlJobConfig - >>>>>>>>>>> xxl-job config init.
+2024-08-09 22:36:44.884 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 22:36:44.884 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 22:36:44.889 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 22:36:44.889 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 22:36:45.677 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:noteJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@76e4212[class com.yanhuo.platform.xxljob.NoteJobHandler#execute]
+2024-08-09 22:36:45.805 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8803 (http) with context path '/platform'
+2024-08-09 22:36:46.474 [main] INFO  com.yanhuo.platform.PlatformApplication - Started PlatformApplication in 12.774 seconds (JVM running for 14.604)
+2024-08-09 22:36:46.640 [Thread-31] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9998
+2024-08-09 22:36:46.927 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 22:36:46.927 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 22:36:46.931 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 22:36:46.931 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 22:36:47.864 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8804 (http) with context path '/search'
+2024-08-09 22:36:48.497 [main] INFO  com.yanhuo.search.SearchApplication - Started SearchApplication in 8.941 seconds (JVM running for 11.956)
+2024-08-09 22:36:48.697 [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-09 22:36:48.698 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='yanhuo-xxl-job-executor', registryValue='http://127.0.0.1:9998/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
+2024-08-09 22:37:16.415 [main] INFO  com.yanhuo.util.UtilApplication - No active profile set, falling back to default profiles: default
+2024-08-09 22:37:16.852 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-08-09 22:37:16.854 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-09 22:37:16.876 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2024-08-09 22:37:16.973 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yanhuo.xo.dao]' package. Please check your configuration.
+2024-08-09 22:37:17.029 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=29dde88d-2e50-3b57-99e3-38527f061551
+2024-08-09 22:37:17.435 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8805 (http)
+2024-08-09 22:37:17.443 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 22:37:17.444 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-08-09 22:37:17.446 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-08-09 22:37:17.447 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-08-09 22:37:17.447 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-09 22:37:17.454 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-08-09 22:37:17.584 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/util] - Initializing Spring embedded WebApplicationContext
+2024-08-09 22:37:17.585 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1159 ms
+2024-08-09 22:37:18.096 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 22:37:18.096 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 22:37:18.099 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-08-09 22:37:18.099 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-08-09 22:37:19.584 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8805 (http) with context path '/util'
+2024-08-09 22:37:20.008 [main] INFO  com.yanhuo.util.UtilApplication - Started UtilApplication in 5.086 seconds (JVM running for 7.152)
+2024-08-09 22:37:20.749 [xxl-job, executor ExecutorRegistryThread] ERROR com.xxl.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-09 22:37:20.750 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='yanhuo-xxl-job-executor', registryValue='http://127.0.0.1:9998/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://127.0.0.1:8080/xxl-job-admin/api/registry, content=null]
+2024-08-09 22:37:21.089 [Thread-31] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server stop.

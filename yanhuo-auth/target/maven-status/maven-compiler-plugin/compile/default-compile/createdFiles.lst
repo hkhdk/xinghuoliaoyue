@@ -1,0 +1,6 @@
+com\yanhuo\auth\service\AuthUserService.class
+com\yanhuo\auth\constant\AuthConstant.class
+com\yanhuo\auth\AuthApplication.class
+com\yanhuo\auth\dto\AuthUserDTO.class
+com\yanhuo\auth\service\impl\AuthUserServiceImpl.class
+com\yanhuo\auth\controller\AuthUserController.class
